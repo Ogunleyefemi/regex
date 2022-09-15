@@ -12,11 +12,13 @@
 </head>
 <body>
     <h1>Text-analyser with Regex</h1><br>
-    <form action="submit" class="form-control">
-        <input type="text" placeholder="input your text" class="form-control" required><br>
-        <input type="text" placeholder="word to check" class="form-control"><br>
-        <input type="submit" value="CHECK" class="bg-light">
-    </form>
+    <form id="form">
+        <input type="text" placeholder="input your text" class="form-control" id="text" required><br>
+        <input type="text" placeholder="word to check" class="form-control" id="tocheck"><br>
+        <button type="submit" class="bg-light">CHECK</button>
+    </form><br><br>
+
+    <p> Word Count: <span id="wordcount"></span></p>
 
     
 </body>
